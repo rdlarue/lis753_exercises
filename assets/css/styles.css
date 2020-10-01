@@ -1,0 +1,28 @@
+body {
+  background-color: #343a40;
+  font-family: arial, sans-serif;
+}
+
+h1,h2 {
+  color: #f8f9fa;
+}
+a {
+  color: #f8961e;
+}
+
+p {
+  color: #f8961e;
+}
+
+ul {
+  color: #fb5607;
+}
+
+ol {
+  color: #fb5607;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
