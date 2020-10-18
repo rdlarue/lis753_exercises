@@ -1,18 +1,26 @@
 
 body {
   background-color: #abbfd3;
-  font-family: "Megrim", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #ffffff;
+
+  }
 }
 
 h1 {
   margin-bottom: .5em;
-  font-size: 2.2em;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
 }
 
 h2{
   margin-bottom: .25em;
   margin-top: 1.25em;
-  font-size: 1.7em;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
 }
 
 h1,h2 {
@@ -27,27 +35,26 @@ p {
   font-family: "Corbel", sans-serif;
   color: #002554;
   line-height: 1.3em;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 0;
-
 }
 
 
 ul {
-
   color: #0082BA;
   padding-left: 20px;
   margin-top: 8px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Corbel", sans-serif;
+  font-size: 14px;
   line-height: 1.3em;
-
 }
 
 ol {
   color: #0082BA;
   padding-left: 20px;
   margin-top: 8px;
-  font-family: "Gill Sans", sans-serif;
+  font-size: 14px;
+  font-family: "Corbel", sans-serif;
 }
 
 img {
@@ -57,7 +64,7 @@ img {
 }
 
 .wrapper {
-  background: #f6f6f6;
+  background-color: #f6f6f6;
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -71,10 +78,12 @@ blockquote {
   margin-left: 0;
   line-height: 1.5em;
   font-family: "Corbel", sans-serif;
+  font-size: 12px;
 }
 
 .caption {
   font-style: italic;
+  font-size: 11px;
   margin-top: .25em;
 }
 
@@ -83,12 +92,51 @@ blockquote {
   margin: 2.25em 1em;
 }
 
+header {
+  background-image: url(../images/wavy-dots.png);
+  border-bottom: 2px solid #DDE5ED;
+  text-align: center;
+}
 
-#example1 {
+footer.wrapper {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 2px solid #DDE5ED;
+  font-size: 10px;
+}
 
-  background: url(https://media2.giphy.com/media/hRBZptDO0ClD72QnJ1/source.gif);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  padding: 15px;
+#copyright {
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+#page-title {
+
+}
+
+  @media screen and (min-width: 600px) {
+  #page-title {
+    font-size: 40px;
+
+  }
+}
+  @media screen and (max-width: 600px) {
+  #page-title {
+    font-size: 20px;
+  }
+}
+
+p {
+}
+  @media screen and (min-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
+  @media screen and (max-width: 600px) {
+p {
+    font-size: 10px;
+  }
 }
